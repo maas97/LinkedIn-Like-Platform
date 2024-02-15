@@ -30,5 +30,5 @@ module.exports._500 = (err, req, res, next) =>{
 }
 
 module.exports._404 = (req, res, next) =>{
-    res.status(404).json({status: "fail", error: "Page not found, Thanks for using Dubai Recruitment Website"})
+    res.status(404).json({status: "fail", error: "Page not found, Thanks for using Egy Recruitment Website"})
 }

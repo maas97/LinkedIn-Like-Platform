@@ -79,7 +79,7 @@ const createHashedToken = function(token) {
 exports.welcome = AsyncHandler(async (req, res, next)=>{
     res.status(200).json({
         status: "success",
-        data:  "Welcome to Dubai Recruitment API"
+        data:  "Welcome to Egy Recruitment API"
     })
 })
 

@@ -53,7 +53,7 @@ module.exports = class Email {
         async sendWelcome(){
             await this.send(
                 "verify_email",
-                "Welcome to Dubai Recruitment Family, Please Verify your Email"
+                "Welcome to Egy Recruitment Family, Please Verify your Email"
             )
         }
 
